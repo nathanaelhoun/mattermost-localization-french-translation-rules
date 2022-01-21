@@ -2,113 +2,113 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [Introduction](#introduction)
-    * [Instance de traduction](#instance-de-traduction)
-    * [Commentaires pour les traducteurs](#commentaires-pour-les-traducteurs)
-    * [Traduction hors ligne](#traduction-hors-ligne)
-    * [Tester ses traductions](#tester-ses-traductions)
-    * [Outils pour le traducteur](#outils-pour-le-traducteur)
-        * [Pology](#pology)
-        * [Bases de connaissance](#bases-de-connaissance)
-    * [Points à améliorer dans la traduction francophone](#points-à-améliorer-dans-la-traduction-francophone)
-* [Insertion de caractères unicodes](#insertion-de-caractères-unicodes)
-    * [Introduction](#introduction-1)
-    * [Touche compose](#touche-compose)
-    * [Table de caractères](#table-de-caractères)
-    * [Code des caractères](#code-des-caractères)
-* [Style](#style)
-    * [Jargon](#jargon)
-    * [Usage de l'impératif](#usage-de-limpératif)
-    * [Usage du futur simple](#usage-du-futur-simple)
-    * [Majuscules](#majuscules)
-    * [Abbréviations](#abbréviations)
-    * [Guillemets](#guillemets)
-    * [Pluriel de majesté](#pluriel-de-majesté)
-    * [Ecriture inclusive](#ecriture-inclusive)
-    * [Traduction trop longue](#traduction-trop-longue)
-    * [Gestion du pluriel](#gestion-du-pluriel)
-        * [Exemple 1](#exemple-1)
-        * [Exemple 2](#exemple-2)
-        * [Exemple 3](#exemple-3)
-        * [Exemple 4](#exemple-4)
-        * [Outil en ligne](#outil-en-ligne)
-    * [Gestion des messages d'erreurs](#gestion-des-messages-derreurs)
-* [Vocabulaire](#vocabulaire)
-    * [Ability](#ability)
-    * [At rest / in transit](#at-rest--in-transit)
-    * [API](#api)
-    * [Attach](#attach)
-    * [Autocompletion](#autocompletion)
-    * [Batch](#batch)
-    * [Before taking effect](#before-taking-effect)
-    * [Beta](#beta)
-    * [BG](#bg)
-    * [Bot](#bot)
-    * [Canonical](#canonical)
-    * [Channel mentions](#channel-mentions)
-    * [Constraints](#constraints)
-    * [Direct](#direct)
-    * [Directory](#directory)
-    * [Details](#details)
-    * [Documentation](#documentation)
-    * [Enter / specify / input field](#enter--specify--input-field)
-    * [Email](#email)
-    * [Emoji](#emoji)
-    * [Encountered](#encountered)
-    * [Endpoint](#endpoint)
-    * [Failed to](#failed-to)
-    * [FileInfos](#fileinfos)
-    * [Flag](#flag)
-    * [Folder](#folder)
-    * [Follow up](#follow-up)
-    * [Get / retrieve](#get--retrieve)
-    * [Guest](#guest)
-    * [Handle](#handle)
-    * [Hours / timezone](#hours--timezone)
-    * [Invitations](#invitations)
-    * [Icon / image](#icon--image)
-    * [Jobs](#jobs)
-    * [Kick / ban / remove](#kick--ban--remove)
-    * [Link/linking](#linklinking)
-    * [Marketplace](#marketplace)
-    * [Marshalling](#marshalling)
-    * [Member / channel member / membership](#member--channel-member--membership)
-    * [Message](#message)
-    * [Message export job](#message-export-job)
-    * [Modify](#modify)
-    * [Mute](#mute)
-    * [Notifications push / mobile / desktop](#notifications-push--mobile--desktop)
-    * [Optional](#optional)
-    * [Override](#override)
-    * [Packaged](#packaged)
-    * [Parse / parser](#parse--parser)
-    * [Permanently](#permanently)
-    * [Permissions](#permissions)
-    * [Populate](#populate)
-    * [Posted / posts / publication](#posted--posts--publication)
-    * [Private message](#private-message)
-    * [Preview mode](#preview-mode)
-    * [Preview features](#preview-features)
-    * [Privacy](#privacy)
-    * [Purpose](#purpose)
-    * [Rate limits](#rate-limits)
-    * [Reactions](#reactions)
-    * [Refresh](#refresh)
-    * [Retrieve](#retrieve)
-    * [Rollback](#rollback)
-    * [Routes](#routes)
-    * [Save](#save)
-    * [Scheme](#scheme)
-    * [Slash commands](#slash-commands)
-    * [SSO](#sso)
-    * [Support](#support)
-    * [Sysadmin / system admin / team admin / channel admin](#sysadmin--system-admin--team-admin--channel-admin)
-    * [Terms](#terms)
-    * [Token / secret key](#token--secret-key)
-    * [Trigger](#trigger)
-    * [Unread](#unread)
-    * [URL signing](#url-signing)
-    * [Worker](#worker)
+- [Introduction](#introduction)
+  - [Instance de traduction](#instance-de-traduction)
+  - [Commentaires pour les traducteurs](#commentaires-pour-les-traducteurs)
+  - [Traduction hors ligne](#traduction-hors-ligne)
+  - [Tester ses traductions](#tester-ses-traductions)
+  - [Outils pour le traducteur](#outils-pour-le-traducteur)
+    - [Pology](#pology)
+    - [Bases de connaissance](#bases-de-connaissance)
+  - [Points à améliorer dans la traduction francophone](#points-à-améliorer-dans-la-traduction-francophone)
+- [Insertion de caractères unicodes](#insertion-de-caractères-unicodes)
+  - [Introduction](#introduction-1)
+  - [Touche compose](#touche-compose)
+  - [Table de caractères](#table-de-caractères)
+  - [Code des caractères](#code-des-caractères)
+- [Style](#style)
+  - [Jargon](#jargon)
+  - [Usage de l'impératif](#usage-de-limpératif)
+  - [Usage du futur simple](#usage-du-futur-simple)
+  - [Majuscules](#majuscules)
+  - [Abbréviations](#abbréviations)
+  - [Guillemets](#guillemets)
+  - [Pluriel de majesté](#pluriel-de-majesté)
+  - [Ecriture inclusive](#ecriture-inclusive)
+  - [Traduction trop longue](#traduction-trop-longue)
+  - [Gestion du pluriel](#gestion-du-pluriel)
+    - [Exemple 1](#exemple-1)
+    - [Exemple 2](#exemple-2)
+    - [Exemple 3](#exemple-3)
+    - [Exemple 4](#exemple-4)
+    - [Outil en ligne](#outil-en-ligne)
+  - [Gestion des messages d'erreurs](#gestion-des-messages-derreurs)
+- [Vocabulaire](#vocabulaire)
+  - [Ability](#ability)
+  - [At rest / in transit](#at-rest--in-transit)
+  - [API](#api)
+  - [Attach](#attach)
+  - [Autocompletion](#autocompletion)
+  - [Batch](#batch)
+  - [Before taking effect](#before-taking-effect)
+  - [Beta](#beta)
+  - [BG](#bg)
+  - [Bot](#bot)
+  - [Canonical](#canonical)
+  - [Channel mentions](#channel-mentions)
+  - [Constraints](#constraints)
+  - [Direct](#direct)
+  - [Directory](#directory)
+  - [Details](#details)
+  - [Documentation](#documentation)
+  - [Enter / specify / input field](#enter--specify--input-field)
+  - [Email](#email)
+  - [Emoji](#emoji)
+  - [Encountered](#encountered)
+  - [Endpoint](#endpoint)
+  - [Failed to](#failed-to)
+  - [FileInfos](#fileinfos)
+  - [Flag](#flag)
+  - [Folder](#folder)
+  - [Follow up](#follow-up)
+  - [Get / retrieve](#get--retrieve)
+  - [Guest](#guest)
+  - [Handle](#handle)
+  - [Hours / timezone](#hours--timezone)
+  - [Invitations](#invitations)
+  - [Icon / image](#icon--image)
+  - [Jobs](#jobs)
+  - [Kick / ban / remove](#kick--ban--remove)
+  - [Link/linking](#linklinking)
+  - [Marketplace](#marketplace)
+  - [Marshalling](#marshalling)
+  - [Member / channel member / membership](#member--channel-member--membership)
+  - [Message](#message)
+  - [Message export job](#message-export-job)
+  - [Modify](#modify)
+  - [Mute](#mute)
+  - [Notifications push / mobile / desktop](#notifications-push--mobile--desktop)
+  - [Optional](#optional)
+  - [Override](#override)
+  - [Packaged](#packaged)
+  - [Parse / parser](#parse--parser)
+  - [Permanently](#permanently)
+  - [Permissions](#permissions)
+  - [Populate](#populate)
+  - [Posted / posts / publication](#posted--posts--publication)
+  - [Private message](#private-message)
+  - [Preview mode](#preview-mode)
+  - [Preview features](#preview-features)
+  - [Privacy](#privacy)
+  - [Purpose](#purpose)
+  - [Rate limits](#rate-limits)
+  - [Reactions](#reactions)
+  - [Refresh](#refresh)
+  - [Retrieve](#retrieve)
+  - [Rollback](#rollback)
+  - [Routes](#routes)
+  - [Save](#save)
+  - [Scheme](#scheme)
+  - [Slash commands](#slash-commands)
+  - [SSO](#sso)
+  - [Support](#support)
+  - [Sysadmin / system admin / team admin / channel admin](#sysadmin--system-admin--team-admin--channel-admin)
+  - [Terms](#terms)
+  - [Token / secret key](#token--secret-key)
+  - [Trigger](#trigger)
+  - [Unread](#unread)
+  - [URL signing](#url-signing)
+  - [Worker](#worker)
 
 <!-- vim-markdown-toc -->
 
@@ -120,27 +120,26 @@ La traduction francophone de Mattermost étant activement maintenue, voici quelq
 
 ### Instance de traduction
 
-Mattermost utilise [une instance Pootle pour ses traductions](https://translate.mattermost.com/fr/). Si ce n'est pas déjà fait, veuillez créer un compte sur cette instance pour pouvoir participer.
+Mattermost utilise [une instance Weblate pour ses traductions](https://translate.mattermost.com/fr/). Si ce n'est pas déjà fait, veuillez créer un compte sur cette instance pour pouvoir participer.
 
-Le nombre de chaînes traduites étant assez élevé au sein du projet Mattermost, si vous trouvez des traductions qui ne respectent pas ces quelques règles, n'hésitez pas à proposer une correction sur Pootle.
+Le nombre de chaînes traduites étant assez élevé au sein du projet Mattermost, si vous trouvez des traductions qui ne respectent pas ces quelques règles, n'hésitez pas à proposer une correction sur Weblate.
 
+<!-- TODO: vérifier que c'est toujours le cas -->
 Veuillez noter que cette instance est habituellement indisponible tous les jours de minuit à une heure du matin (UTC+1). L'instance doit en effet être coupée lorsque les traductions sont en cours de synchronisation avec le repository git de Mattermost.
 
 ### Commentaires pour les traducteurs
 
-Pootle supporte l'ajout de commentaires permettant d'aider le traducteur. Ils sont utiles pour préciser à l'utilisateur si une chaîne doit se traduire à l'infinitif ou à l'impératif par exemple. En effet, en anglais il n'y a aucune différence entre ces deux formes, seul le contexte et la cohérence du reste de la boite de dialogue nous permettent de choisir un temps plutôt qu'un autre.
+Weblate supporte l'ajout de commentaires permettant d'aider le traducteur. Ils sont utiles pour préciser si une chaîne doit se traduire à l'infinitif ou à l'impératif par exemple. En effet, en anglais il n'y a aucune différence entre ces deux formes, seul le contexte et la cohérence du reste de la boite de dialogue nous permettent de choisir un temps plutôt qu'un autre. Veuillez garder à l'esprit que ces commentaires doivent être courts.
 
-![Exemple de commentaire Pootle](pootle_comments_0001.png)
+![Exemple de commentaire Weblate](weblate_comments_0001.png)
 
-Ces commentaires peuvent être ajoutés par le biais de Pootle ou par le biais de tout autre logiciel supportant les fichiers .po (gettext). Ils sont en effet sauvegardés au sein du fichier.
+<!-- TODO: Tester la phrase suivante pour voir si c'est toujours le cas -->
+**Veuillez ne pas placer de retours à la ligne** insérés par `CTRL+ENTREE` dans ces explications. Le caractère produit `^M` (ou `0d` -zero d- en hexadecimal) n'est pas reconnu par `po2i18n` lorsqu'il est placé en début de ligne de commentaire. `po2i18n` fait partie de [Mattermosti18n](https://github.com/rodcorsi/mattermosti18n), une suite d'utilitaires écrits en Go, utilisés par Mattermost pour convertir les fichiers .po en fichiers JSON et inversément. Ces retours à la ligne créent également des problèmes avec l'instance Pootle utilisée par Mattermost. Une fois des commentaires avec des retours à la ligne ajoutés, même si ces commentaires sont supprimés par après, [ils sont toujours conservés dans les fichiers .po](https://community.mattermost.com/core/pl/xw9j5r1uij8hxn8j35ippztxsh). Le responsable de Mattermost doit alors modifier le fichier manuellement. Nous ne savons pas quelle pourrait être la cause de ce problème; nous ne parvenons pas à reproduire le problème sur une installation fraîche de Pootle utilisée localement.
 
-Cependant, veuillez garder à l'esprit que ces commentaires doivent être courts.
-
-**Veuillez ne pas placer de retours à la ligne** insérés par `CTRL+ENTREE` dans ces commentaires. Le caractère produit `^M` (ou `0d` -zero d- en hexadecimal) n'est pas reconnu par `po2i18n` lorsqu'il est placé en début de ligne de commentaire. `po2i18n` fait partie de [Mattermosti18n](https://github.com/rodcorsi/mattermosti18n), une suite d'utilitaires écrits en Go, utilisés par Mattermost pour convertir les fichiers .po en fichiers JSON et inversément. Ces retours à la ligne créent également des problèmes avec l'instance Pootle utilisée par Mattermost. Une fois des commentaires avec des retours à la ligne ajoutés, même si ces commentaires sont supprimés par après, [ils sont toujours conservés dans les fichiers .po](https://community.mattermost.com/core/pl/xw9j5r1uij8hxn8j35ippztxsh). Le responsable de Mattermost doit alors modifier le fichier manuellement. Nous ne savons pas quelle pourrait être la cause de ce problème; nous ne parvenons pas à reproduire le problème sur une installation fraîche de Pootle utilisée localement.
-
+<!-- TODO: aussi vérifier ceci, qui n'est visiblement plus vrai (ou alors, moi j'ai les droits ?) -->
 ### Traduction hors ligne
 
-Bien que l'instance Pootle utilisée par Mattermost offre la possibilité de télécharger les fichiers .po afin de les tester sur une instance de test de Mattermost, le responsable technique de Mattermost [a désactivé manuellement sur Pootle](https://pre-release.mattermost.com/core/pl/9x5msk5iuifuxfm8wyjadsdyec) la possibilité d'envoyer et remplacer les traductions par nos propres fichiers .po pour les raisons suivantes.
+Bien que l'instance Weblate utilisée par Mattermost offre la possibilité de télécharger les fichiers `.po` afin de les tester sur une instance de test de Mattermost, le responsable technique de Mattermost [a désactivé manuellement sur Pootle](https://pre-release.mattermost.com/core/pl/9x5msk5iuifuxfm8wyjadsdyec) la possibilité d'envoyer et remplacer les traductions par nos propres fichiers .po pour les raisons suivantes.
 
 * Toutes les chaînes sont marquées comme `traduites` après que le fichier ait été envoyé, même si des chaînes n'ont pas été traduites;
 * Les traductions peuvent être périmées entre le moment auquel le contributeur télécharge son fichier et renvoie le fichier sur Pootle;
@@ -150,10 +149,11 @@ C'est pourquoi, même si ces raisons sont discutables lorsqu'un contributeur agi
 
 ### Tester ses traductions
 
-Il est vivement recommandé d'[utiliser une version de développement de Mattermost](https://developers.mattermost.com/contribute/server/developer-setup/) de façon à pouvoir vous [assurer que vos traductions soient correctes selon le contexte](https://docs.mattermost.com/developer/localization.html#test-translations).
+Il est vivement recommandé d'[utiliser une version de développement de Mattermost](https://developers.mattermost.com/contribute/server/developer-setup/) de façon à pouvoir vous [assurer que vos traductions soient correctes selon le contexte](https://handbook.mattermost.com/contributors/join-us/localization#test-translations).
 
 ### Outils pour le traducteur
 
+<!-- TODO: utile de garder cette partie ?  -->
 #### Pology
 
 [La communauté francophone de KDE](https://fr.l10n.kde.org/pology.php) utilise un outil écrit en python appelé "pology". Cet outil permet d'effectuer toutes sortes d'opérations sur des fichiers po (gettext). Pour en savoir davantage sur les fonctionnalités de pology, [veuillez lire sa documentation](http://pology.nedohodnik.net//doc/user/en_US/index-mono.html).
@@ -162,7 +162,7 @@ Installez le paquet correspondant à pology sous votre distribution (sous Arch L
 
     svn co svn://anonsvn.kde.org/home/kde/trunk/l10n-support/pology
 
-Pour vous assurer que votre traduction dispose d'espaces insécables, ce qui est vivement recommandé en français, téléchargez les fichiers .po de l'instance pootle et exécutez pology de façon à ajouter automatiquement des espaces insécables sur le fichier .po (ATTENTION: exécuter cette commande modifie directement le fichier, pensez donc à le sauvegarder avant) :
+Pour vous assurer que votre traduction dispose d'espaces insécables, ce qui est vivement recommandé en français, téléchargez les fichiers `.po` de l'instance pootle et exécutez pology de façon à ajouter automatiquement des espaces insécables sur le fichier `.po` (ATTENTION: exécuter cette commande modifie directement le fichier, pensez donc à le sauvegarder avant) :
 
     /usr/share/pology/scripts/posieve.py fr:setUbsp ./web_static.po
 
@@ -187,6 +187,7 @@ La traduction francophone est déjà dans un très bon état. Parmi les points �
 * Utiliser l'espace fine insécable plutôt que l'espace insécable est recommandé selon les règles typographiques francophones. Le caractère représentant l'espace fine insécable est disponible depuis la sortie de Unicode 3.0 et est bien supporté par les logiciels (cf. [le rapport sur l'utilisation de l'espace fine insécable au sein des logiciels libres](http://malizor.org/public/fines/fines.pdf)). L'espace insécable est, quant à lui, dans le monde du web et du domaine des zones de texte, souvent source d'erreurs (cf. [bug chromium](https://bugs.chromium.org/p/chromium/issues/detail?id=346096)) .
 * Remplacer les guillemets américains par leur version francophone.
 
+<!-- TODO: apparemment on peut le faire maintenant, donc à tester -->
 Ces deux éléments ne sont possibles que si nous pouvons éditer le fichier .po manuellement, passer par le site web de traduction prendrait trop de temps tant la procédure serait répétitive et source d'erreurs.
 
 ## Insertion de caractères unicodes
