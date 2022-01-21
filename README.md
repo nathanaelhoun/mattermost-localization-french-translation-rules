@@ -24,7 +24,7 @@
   - [Abbréviations](#abbréviations)
   - [Guillemets](#guillemets)
   - [Pluriel de majesté](#pluriel-de-majesté)
-  - [Ecriture inclusive](#ecriture-inclusive)
+  - [Écriture inclusive](#écriture-inclusive)
   - [Traduction trop longue](#traduction-trop-longue)
   - [Gestion du pluriel](#gestion-du-pluriel)
     - [Exemple 1](#exemple-1)
@@ -156,7 +156,7 @@ Il est vivement recommandé d'[utiliser une version de développement de Matterm
 <!-- TODO: utile de garder cette partie ?  -->
 #### Pology
 
-[La communauté francophone de KDE](https://fr.l10n.kde.org/pology.php) utilise un outil écrit en python appelé "pology". Cet outil permet d'effectuer toutes sortes d'opérations sur des fichiers po (gettext). Pour en savoir davantage sur les fonctionnalités de pology, [veuillez lire sa documentation](http://pology.nedohodnik.net//doc/user/en_US/index-mono.html).
+[La communauté francophone de KDE](https://fr.l10n.kde.org/pology.php) utilise un outil écrit en python appelé « pology ». Cet outil permet d'effectuer toutes sortes d'opérations sur des fichiers po (gettext). Pour en savoir davantage sur les fonctionnalités de pology, [veuillez lire sa documentation](http://pology.nedohodnik.net//doc/user/en_US/index-mono.html).
 
 Installez le paquet correspondant à pology sous votre distribution (sous Arch Linux, utilisez [pology-svn](https://aur.archlinux.org/packages/pology-svn/)) ou clonez le dépôt SVN:
 
@@ -311,7 +311,7 @@ Il s'avère quelques fois que les messages de Mattermost s'expriment en `nous` p
 
 De façon à se calquer au plus près des autres traductions, pareil texte sera traduit par `Impossible de vérifier les permissions` plutôt que `Les permissions n'ont pas pu être vérifiées`.
 
-### Ecriture inclusive
+### Écriture inclusive
 
 | EN | FR |
 | --- | --- |
@@ -787,7 +787,7 @@ On `compose` un message, une publication ou une réponse.
 
 Bien qu'on ait tendance à vouloir traduire par `mettre à jour`, la plupart du temps traduire par `modifier` est plus simple et correct. On emploiera le terme `mise à jour` uniquement dans le cadre de mises à jour de l'application que nous parlions de la partie serveur ou cliente (webapp, application mobile ou de bureau).
 
-Par exception, on pourra employer le terme `mise à jour` lorsqu'on parlera de raffraichissement de l'affichage d'une vue du logiciel, de la mise à jour d'une connexion WebSocket ou lorsque l'on parle de connexion SMTP/STARTTLS, bien que dans ces derniers cas l'utilisation de `mise à niveau` semble plus appropriée.
+Par exception, on pourra employer le terme `mise à jour` lorsqu'on parlera de rafraîchissement de l'affichage d'une vue du logiciel, de la mise à jour d'une connexion WebSocket ou lorsque l'on parle de connexion SMTP/STARTTLS, bien que dans ces derniers cas l'utilisation de `mise à niveau` semble plus appropriée.
 
 ### Mute
 
